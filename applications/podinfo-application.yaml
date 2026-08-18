@@ -25,11 +25,11 @@ spec:
       targetRevision: HEAD
       ref: values
 
-    # Source 3 — additional manifests from GitHub repo
-    # This source deploys ingress.yaml and any other manifests
-    - repoURL: https://github.com/lebreuil/podinfo-test-repo
-      targetRevision: HEAD
-      path: deploy/manifests  # separate directory for manifests
+    # # Source 3 — additional manifests from GitHub repo
+    # # This source deploys ingress.yaml and any other manifests
+    # - repoURL: https://github.com/lebreuil/podinfo-test-repo
+    #   targetRevision: HEAD
+    #   path: deploy/manifests  # separate directory for manifests
 
   destination:
     server: https://kubernetes.default.svc
